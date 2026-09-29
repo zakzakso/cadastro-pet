@@ -6,7 +6,6 @@ const mysql = require('mysql2/promise');
 
 //para utilizar arquivos de impagens
 const multer = require('multer');
-const express = require('express');
 
 //permite acessar as imagens salvas via url (ex: https://localhost:3000/upload/foto.jpg)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
